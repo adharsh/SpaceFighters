@@ -2,9 +2,6 @@
 #include "GL/gl.h"
 #include <stdlib.h>
 
-
-
-
 void renderFunction(){
 	glClearColor(0.0, 0.0, 0.0, 0.0);
 	glClear(GL_COLOR_BUFFER_BIT);
@@ -21,8 +18,6 @@ void renderFunction(){
 	glFlush();
 
 }
-
-
 
 
 int main(int argc, char** argv){
